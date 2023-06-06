@@ -1,6 +1,24 @@
-/* External CSS */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap");
+@import "./utils/visually-hiden";
+@import "./utils/variables";
 
-/* Internal */
-@import "./utils/_utils-dir";
-@import "./components/_components-dir";
+@import "./base/common";
+@import "./base/container";
+@import "./base/section";
+
+@import "./components/mobile-menu";
+@import "./components/backdrop";
+@import "./components/logo";
+@import "./components/headers";
+@import "./components/btn";
+@import "./components/modal";
+@import "./components/social";
+
+@import "./layout/header";
+@import "./layout/hero-up-side";
+@import "./layout/hero-down-side";
+@import "./layout/about";
+@import "./layout/team";
+@import "./layout/customers";
+@import "./layout/footer";
+@import "./layout/portfolio";
+
