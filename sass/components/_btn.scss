@@ -20,7 +20,8 @@
 
 // Hero button
 .hero__btn {
-  padding: 10px 41px;
+  padding: 10px 19px;
+  display: flex;
 }
 
 // Portfolio - filter buttons
@@ -54,7 +55,7 @@
   position: relative;
   padding-right: 76px;
   outline: none;
-  
+
   @media screen and (max-width: 1199.9px) {
     margin-top: 20px;
   }
